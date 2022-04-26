@@ -10,6 +10,7 @@ export default function Home() {
         <title>PicTag</title>
         <meta name='description' content='Website for PicTag' />
         <link rel='icon' href='/favicon.ico' />
+        <meta property="og:image" content="sarv.png" />
       </Head>
 
       <main className='flex flex-col items-center justify-center w-screen'>
