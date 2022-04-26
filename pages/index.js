@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import Landing from '../components/landing';
+import Problem from '../components/problem';
+import Solution from '../components/solution';
 import Team from '../components/team';
 import styles from '../styles/Home.module.css';
 
@@ -15,6 +17,8 @@ export default function Home() {
 
       <main className='flex flex-col items-center justify-center w-screen'>
         <Landing />
+        <Problem />
+        <Solution />
         <Team />
       </main>
     </div>

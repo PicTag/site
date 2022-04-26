@@ -3,10 +3,11 @@ import Image from 'next/image';
 export default function Team() {
   return (
     <div
-      className='flex flex-col justify-start items-center w-full px-8 md:px-12 lg:w-10/12 mb-14 lg:mb-20'
+      className='flex flex-col justify-start items-center h-[70vh] w-full px-8 md:px-12 lg:w-10/12 mb-14 lg:mb-20 pt-20'
       id='team'
     >
-      <div className='flex flex-row w-full justify-around px-20'>
+      <h2 className='text-5xl pb-10'>The Team</h2>
+      <div className='flex flex-row w-screen justify-around px-20'>
         <div className='flex flex-col items-center'>
           <Image
             src='/samuel1.png'
