@@ -10,7 +10,7 @@ export default function Team() {
       <div className='flex flex-row w-screen justify-around px-20'>
         <div className='flex flex-col items-center'>
           <Image
-            src='/samuel1.png'
+            src='/samuel-hs.png'
             alt='Samuel Yuan'
             width={300}
             height={300}
@@ -26,8 +26,8 @@ export default function Team() {
           </a>
         </div>
         <div className='flex flex-col items-center'>
-          <Image src='/sarv.png' alt='Sarvesh' width={300} height={300} />
-          <p>Sarvesh Submarineian</p>
+          <Image src='/sarvesh-hs.png' alt='Sarvesh' width={300} height={300} />
+          <p>Sarvesh Subramanian</p>
           <a
             href='mailto:sarvesh@pictag.us'
             target='_blank'
@@ -38,7 +38,7 @@ export default function Team() {
           </a>
         </div>
         <div className='flex flex-col items-center'>
-          <Image src='/tyla1.png' alt='Tyler' width={300} height={300} />
+          <Image src='/tyler-hs.png' alt='Tyler' width={300} height={300} />
           <p>Tyler Kerch</p>
           <a
             href='mailto:tyler@pictag.us'
