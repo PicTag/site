@@ -10,9 +10,9 @@ export default function Home() {
     <div className='flex flex-col justify-center'>
       <Head>
         <title>PicTag</title>
-        <meta name='description' content='Website for PicTag' />
+        <meta name='description' content='PicTag - Sort. Search. Share.' />
         <link rel='icon' href='/favicon.ico' />
-        <meta property="og:image" content="sarv.png" />
+        <meta property="og:image" content="preview.png" />
       </Head>
 
       <main className='flex flex-col items-center justify-center w-screen'>
