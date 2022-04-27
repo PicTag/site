@@ -8,6 +8,30 @@ export default function Team() {
     >
       <h2 className='text-5xl pb-10'>The Team</h2>
       <div className='flex flex-row w-screen justify-around px-20'>
+      <div className='flex flex-col items-center'>
+          <Image src='/tyler-hs.png' alt='Tyler' width={300} height={300} />
+          <p>Tyler Kerch</p>
+          <a
+            href='mailto:tyler@pictag.us'
+            target='_blank'
+            rel='noreferrer'
+            className='text-blue-500'
+          >
+            tyler@pictag.us
+          </a>
+        </div>
+        <div className='flex flex-col items-center'>
+          <Image src='/sarvesh-hs.png' alt='Sarvesh' width={300} height={300} />
+          <p>Sarvesh Subramanian</p>
+          <a
+            href='mailto:sarvesh@pictag.us'
+            target='_blank'
+            rel='noreferrer'
+            className='text-blue-500'
+          >
+            sarvesh@pictag.us
+          </a>
+        </div>
         <div className='flex flex-col items-center'>
           <Image
             src='/samuel-hs.png'
@@ -25,30 +49,8 @@ export default function Team() {
             samuel@pictag.us
           </a>
         </div>
-        <div className='flex flex-col items-center'>
-          <Image src='/sarvesh-hs.png' alt='Sarvesh' width={300} height={300} />
-          <p>Sarvesh Subramanian</p>
-          <a
-            href='mailto:sarvesh@pictag.us'
-            target='_blank'
-            rel='noreferrer'
-            className='text-blue-500'
-          >
-            sarvesh@pictag.us
-          </a>
-        </div>
-        <div className='flex flex-col items-center'>
-          <Image src='/tyler-hs.png' alt='Tyler' width={300} height={300} />
-          <p>Tyler Kerch</p>
-          <a
-            href='mailto:tyler@pictag.us'
-            target='_blank'
-            rel='noreferrer'
-            className='text-blue-500'
-          >
-            tyler@pictag.us
-          </a>
-        </div>
+        
+        
       </div>
     </div>
   );
