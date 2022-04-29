@@ -13,7 +13,7 @@ export default function Landing() {
           ></Image>
           <h1 className='text-9xl text-white font-bold pl-10 font-inter'>
             PicTag
-          </h1>
+          </h1> 
         </div>
       </div>
     </div>
