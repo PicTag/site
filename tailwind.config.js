@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'inter': ['Inter'],
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/img/hero-pattern.svg')",
       }
     },
   },
