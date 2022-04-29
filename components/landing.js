@@ -4,7 +4,7 @@ export default function Landing() {
   return (
     <div className='w-full h-screen'>
       <div>
-        <div className='flex flex-col z-30 items-center justify-around sm:justify-center px-8 sm:flex-row sm:px-5 w-full h-screen bg-gradient-to-br from-indigo-600/75 to-violet-300/75'>
+        <div className='flex flex-col z-30 items-center justify-around sm:justify-center px-8 sm:flex-row sm:px-5 w-full h-screen bg-gradient-to-br from-indigo-600 to-violet-300'>
           <Image
             src='/logo-white.svg'
             alt='PicTag Logo'
