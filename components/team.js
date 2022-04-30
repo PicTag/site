@@ -7,8 +7,8 @@ export default function Team() {
       id='team'
     >
       <h2 className='text-6xl pb-14 font-inter font-bold'>The Team</h2>
-      <div className='flex flex-row w-screen justify-around px-20'>
-        <div className='flex flex-col items-center'>
+      <div className='flex flex-col md:flex-row w-screen justify-around px-16'>
+        <div className='flex flex-col items-center px-4'>
           <img
             className='drop-shadow-md rounded-lg'
             src='/tyler-hs.png'
@@ -26,7 +26,7 @@ export default function Team() {
             tyler@pictag.us
           </a>
         </div>
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center px-4 pt-8 md:pt-0'>
           <img
             className='drop-shadow-md rounded-lg'
             src='/sarvesh-hs.png'
@@ -44,7 +44,7 @@ export default function Team() {
             sarvesh@pictag.us
           </a>
         </div>
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center px-4 pt-8 md:pt-0 pb-8'>
           <img
             className='drop-shadow-md rounded-lg'
             src='/samuel-hs.png'
